@@ -485,6 +485,15 @@ footer {
     padding: 0 0 50px 200px;
 }
 
+.section-hero2 {
+    background-image: url(asset/underprogess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vH;
+      padding: 0 0 50px 200px;
+}
+
 /*----------------------------------------------------------------------*/
 
 /* section CONTACT */
@@ -576,7 +585,7 @@ footer {
 
     border: solid;
     border-color: #da718d;
-    border-radius: 50%;
+    border-radius: 20%;
     border-width: 10px;
 
 }
@@ -645,6 +654,16 @@ select {
 .WTF-rendre-la-dedans {
     object-fit: cover;
 
+
+    /* or
+  object-fit: cover; */
+}
+
+.WTF-rendre-la-dedans2 {
+    object-fit: cover;
+  display: block;
+  margin: 0 auto;
+   
 
     /* or
   object-fit: cover; */
