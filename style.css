@@ -259,6 +259,10 @@ li {
     color: white;
 }
 
+.txt-brown {
+    color: rgb(71, 45, 45);
+}
+
 .size-60 {
     font-size: 60px;
 }
@@ -480,9 +484,14 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vH;
+    height: 90vH;
     border-radius: 0 0 0 180px;
     padding: 0 0 50px 200px;
+}
+
+.opacity {
+    
+    opacity: 0,4;
 }
 
 .section-hero2 {
