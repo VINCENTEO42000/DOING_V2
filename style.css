@@ -120,8 +120,9 @@ p {
 .justify-flexstart {
     justify-content: flex-start;
 }
+
 .justify-end {
-justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .align-center {
@@ -176,6 +177,7 @@ justify-content: flex-end;
 .margin-top-25 {
     margin-top: 25px;
 }
+
 
 .margin-top-50 {
     margin-top: 50px;
@@ -438,16 +440,20 @@ header {
 }
 
 
-.header-equipe {
-background-color: #da718d;
+.blue-equipe-H {
+    background-color: #2596be;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
 }
 
-.section-equipe01 {
+.blue-equipe {
     background-color: #2596be;
+}
+
+.section-equipe01 {
+    background-color: #da718d;
 }
 
 .section-equipe02 {
@@ -527,7 +533,7 @@ footer {
 }
 
 .card-utilisateur1 {
-    background-color:#ADBE96;
+    background-color: #ADBE96;
     border-radius: 20px;
     padding: 18px;
     max-width: 250px;
@@ -538,7 +544,7 @@ footer {
 }
 
 .card-utilisateur3 {
-    background-color:#E3BB43;
+    background-color: #E3BB43;
     border-radius: 20px;
     padding: 18px;
     max-width: 250px;
@@ -547,15 +553,31 @@ footer {
     margin-right: auto;
 }
 
-    
-    .card-utilisateur2 {
-    background-color:#194337;
+
+.card-utilisateur2 {
+    background-color: #194337;
     border-radius: 20px;
     padding: 18px;
     max-width: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.card-equipe {
+    border: solid;
+    border-color: #2596be;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+.border-image {
+
+    border: solid;
+    border-color: #da718d;
+    border-radius: 50%;
+    border-width: 10px;
 
 }
 
@@ -573,8 +595,9 @@ footer {
 }
 
 .section-03 {
-    background-color:#ADBE96;
+    background-color: #ADBE96;
 }
+
 /*----------------------------------------------------------------------*/
 /*  */
 
@@ -596,26 +619,26 @@ footer {
 /* PAGE DEVIS */
 
 .page-devis {
-    background-color: black ;
+    background-color: black;
 }
 
 .card-devis {
     background-color: white;
     border-radius: 10px;
     padding: 30px;
-    
+
 }
 
 
 label {
-  font-family: sans-serif;
-  font-size: 1rem;
-  padding-right: 10px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
 }
 
 select {
-  font-size: 0.9rem;
-  padding: 2px 5px;
+    font-size: 0.9rem;
+    padding: 2px 5px;
 }
 
 
@@ -626,6 +649,7 @@ select {
     /* or
   object-fit: cover; */
 }
+
 /*----------------------------------------------------------------------*/
 /* IMAGE*/
 
@@ -646,5 +670,18 @@ select {
 }
 
 .bglightgreen {
-    background-color:#ADBE96;
+    background-color: #ADBE96;
+}
+
+.largeur {
+    width: 100%;
+    height: 30vH;
+}
+
+.WTF-rendre-la-dedans {
+    object-fit: cover;
+
+
+    /* or
+  object-fit: cover; */
 }
