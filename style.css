@@ -437,6 +437,23 @@ header {
     width: 100%;
 }
 
+
+.header-equipe {
+background-color: #da718d;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.section-equipe01 {
+    background-color: #2596be;
+}
+
+.section-equipe02 {
+    background-color: #fb8b4b;
+}
+
 /*----------------------------------------------------------------------*/
 /*FOOTER*/
 
@@ -610,3 +627,24 @@ select {
   object-fit: cover; */
 }
 /*----------------------------------------------------------------------*/
+/* IMAGE*/
+
+.img {
+    height: 500px;
+    width: 500px;
+}
+
+/*----------------------------------------------------------------------*/
+/* bg color */
+
+.bgyellow {
+    background-color: #E3BB43;
+}
+
+.bggreen {
+    background-color: #194337;
+}
+
+.bglightgreen {
+    background-color:#ADBE96;
+}
