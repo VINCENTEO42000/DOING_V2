@@ -717,3 +717,15 @@ select {
     /* or
   object-fit: cover; */
 }
+
+.background1 {
+    background-color: #194337;
+}
+
+.background2 {
+    background-color:#E3BB43;
+}
+
+.background3 {
+    background-color:#ADBE96;
+}
