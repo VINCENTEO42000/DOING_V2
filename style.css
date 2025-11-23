@@ -275,6 +275,10 @@ p {
     gap: 40 Px;
 }
 
+.gap-12 {
+    gap: 12 Px;
+}
+
 .column-gap-20 {
     column-gap: 20px;
 }
@@ -498,6 +502,7 @@ span.goldyProjet {
 header {
     background-color: #090c16;
     position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -882,4 +887,30 @@ left: 50px;
 
 .opacity {
     opacity: 0.20;
+}
+
+
+.big-number {
+    color: rgba(11, 11, 11, 0.434);
+    font-size: 150px;
+    position: absolute;
+    top: -93px;
+    left: 0;
+}
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.trait {
+    background-color: #FBD784;
+    height: 2px;
+    width: 90px;
 }
