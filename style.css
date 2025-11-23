@@ -6,6 +6,46 @@
     padding: 0;
 }
 
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Andada Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+}
+
+.royal{
+
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale";
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /*----------------------------------------------------------------------*/
 /* TEST DE VISUALISATION POUR LES NULS!!!*/
 
@@ -133,6 +173,10 @@ p {
     align-items: flex-end;
 }
 
+.align-between {
+    align-content: space-between;
+}
+
 .align-around {
     align-self: space-around;
 }
@@ -185,6 +229,10 @@ p {
 
 .margin-top-250 {
     margin-top: 250px;
+}
+
+.margin-top-300 {
+    margin-top: 300px;
 }
 
 .margin-top-200 {
@@ -261,6 +309,14 @@ li {
 
 .txt-white {
     color: white;
+}
+
+.txt-golden {
+    color: #e1a971;
+}
+
+.txt-red{
+    color: red;
 }
 
 .txt-brown {
@@ -440,7 +496,7 @@ span.goldyProjet {
 /*HEADER*/
 
 header {
-    background-color: #E3BB43;
+    background-color: #090c16;
     position: fixed;
     left: 0;
     top: 0;
@@ -472,7 +528,7 @@ header {
 /*FOOTER*/
 
 footer {
-    background-color: #E3BB43;
+    background-color:#090c16;
 }
 
 
@@ -484,12 +540,11 @@ footer {
 
 /* section hero */
 .section-hero {
-    background-image: url(asset/hero.jpg);
+    background-image: url(asset/maarten-van-den-heuvel-gZXx8lKAb7Y-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vH;
-    border-radius: 0 0 0 180px;
+    height: 100vH;
     padding: 0 0 50px 200px;
 }
 
@@ -555,13 +610,15 @@ footer {
 }
 
 .card-utilisateur1 {
-    background-color: #ADBE96;
+    background-color:#e1a971;
     border-radius: 20px;
     padding: 18px;
     max-width: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    height: 350px;
+    box-shadow: 10px 5px 5px grey
 
 }
 
@@ -629,11 +686,6 @@ footer {
 /*----------------------------------------------------------------------*/
 /*SECTION SECTION FOOTER*/
 
-#footer {
-    height: 1px;
-    width: 100%;
-    background-color: gray;
-}
 
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
@@ -728,4 +780,106 @@ select {
 
 .background3 {
     background-color:#ADBE96;
+}
+
+#footer {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.hauteur {
+    height: 40 hv;
+}
+
+
+.position2 {
+    position: absolute;
+bottom: 50px;
+right: 40px;
+}
+
+.position3 {
+    position: absolute;
+top: 100px;
+left: 50px;
+}
+
+#papa1 {
+position:absolute;
+}
+
+#fiston1 {
+position:relative;
+bottom: 50px;
+right: 40px;
+}
+
+#fiston1bis {
+position:relative;
+top: 100px;
+left: 50px;
+}
+
+.border-right {
+    border-right: solid;
+    border-right-color: white;
+}
+
+/*SECTION SECTION FOOTER*/
+
+#line {
+    height: 3px;
+    width: 90px;
+    background-color: #FBD784;
+    align-items: flex-end;
+}
+
+#line2 {
+    height: 3px;
+    width: 40px;
+    background-color: #FBD784;
+    align-items: flex-end;
+}
+
+.goldy-color {
+    color: #FBD784;
+}
+
+.niveau-nega {
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+
+.niveau-01 {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+
+}
+
+.niveau-01-bis {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left:0px;
+
+}
+
+.niveau-02 {
+    position: relative;
+    z-index: 2;
+
+
+}
+
+
+.opacity {
+    opacity: 0.20;
 }
